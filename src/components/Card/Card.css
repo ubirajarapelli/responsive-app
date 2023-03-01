@@ -1,0 +1,7 @@
+.card {
+  width: 333px;
+  padding: var(--spacing-large);
+  border-radius: var(--border-radius-small);
+  background-color: var(--color-neutral-high-pure);
+  box-shadow: var(--shadow-initial);
+}

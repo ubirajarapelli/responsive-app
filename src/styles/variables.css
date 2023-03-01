@@ -1,0 +1,107 @@
+:root {
+/* Borders */
+--border-size-none:         0;
+--border-size-hairLine:     1px;
+--border-type-solid:        solid;
+--border-type-dotted:       dotted;
+--border-radius-xsmall:     4px;
+--border-radius-small:      8px;
+--border-radius-default:    12px;
+--border-radius-large:      16px;
+--border-radius-pill:       32px;
+--border-radius-circular:   50%;
+
+/* Fonts */
+--font-size-xxsmall:      12px;
+--font-size-xsmall:       14px;
+--font-size-small:        15px;
+--font-size-default:      16px;
+--font-size-large:        18px;
+--font-size-xlarge:       20px;
+--font-size-xxlarge:      25px;
+--font-size-xxxlarge:     40px;
+--font-size-huge:         50px;
+
+--font-weight-light:    300;
+--font-weight-regular:  400;
+--font-weight-medium:   500;
+--font-weight-bold:     700;
+
+/* Shadows */
+--shadow-spread:    0 0 40px 0 rgba(0; 0; 0; 0.2);
+--shadow-base:      1px 1px 10px rgba(213; 213; 213; .5);
+--shadow-initial:   0px 2px 4px #B0B6C4;
+
+/* Spacing */
+--spacing-quark:      1px;
+--spacing-nano:       2px;
+--spacing-xxxsmall:   4px;
+--spacing-xxsmal:     6px;
+--spacing-xsmall:     8px;
+--spacing-small:      12px;
+--spacing-default:    16px;
+--spacing-large:      24px;
+--spacing-xlarge:     32px;
+--spacing-xxlarge:    40px;
+--spacing-xxxlarge:   48px;
+--spacing-huge:       56px;
+--spacing-giant:      64px;
+
+--letter-spacing-xsmall:     -1;
+--letter-spacing-small:      -0.5;
+--letter-spacing-default:    0;
+--letter-spacing-large:      1;
+--letter-spacing-xlarge:     2;
+
+--line-height-xxsmall:    1;
+--line-height-xsmall:     1.25;
+--line-height-small:      1.38;
+--line-height-default:    1.5;
+
+ /* Viewports */
+--viewport-desktop:  (min-width: 75em);
+--viewport-laptop:   (min-width: 64em);
+--viewport-tablet:   (min-width: 48em);
+--viewport-mobile:   (max-width: 48em);
+
+/* Inteface Colors */
+--color-neutral-high-pure:    #ffffff; /* Pure white */
+--color-neutral-low-pure:     #000000; /*  Pure black */
+--color-neutral-low-meduim:   #f5f6fA; /*  Gray Blue */
+
+
+/* Interface Text color */
+--text-color-pure:       #a2a1ae; /* Santas Gray (experimental) */
+--text-color-light:      #e0dfe3; /* Mischka (experimental) */
+--text-color-meduim:     #cac8d0; /* Gray Suit (experimental) */
+--text-color-dark:       #717185; /* Storm Gray (experimental) */
+
+/* Inteface feedback colors */
+--feedback-error-pure:              #dd3826; /* Punch */
+--feedback-error-light:             #f1594a; /* Burnt Sienna (experimental)*/ 
+--feedback-error-contrastText:      var(--color-neutral-high-pure);
+
+--feedback-info-pure:               #1f9fcc; /* Curious Blue(*/
+--feedback-info-meduim:             #0077bf; /* Lochmara (experimental) */
+--feedback-info-contrastText:       var(--color-neutral-high-pure);
+
+--feedback-success-pure:            #008e45; /* Fun Green */
+--feedback-success-light:           #69af44; /* Apple G (experimental) */
+--feedback-success-contrastText:    var(--color-neutral-high-pure);
+
+--feedback-warning-pure:            #e96124; /* Piper */
+--feedback-warning-light:           #fcc60e; /* Supernova (experimental) */
+--feedback-warning-meduim:          #eb7324; /* Tango (experimental) */
+--feedback-warning-contrastText:    var(--color-neutral-high-pure);
+
+
+/* Brand Values */
+--brand-color-primary-pure:     #454d65; /* Fiord */
+--brand-color-primary-meduim:     #685ba8; /* Scampi (experimental) */ 
+--brand-color-secondary-pure:   #6dcff6; /* Malibu */
+
+--brand-font-family-heading: 'Montserrat', Helvetica, Arial, Ubuntu, sans-serif;
+--brand-font-family-text: 'Roboto', Helvetica, Arial, Ubuntu, sans-serif;
+
+}
+

@@ -1,0 +1,6 @@
+.task-list-item {
+  padding: var(--spacing-default);
+  color: var(--text-color-dark);
+  border-radius: var(--border-radius-default);
+  background-color: var(--color-neutral-low-meduim);
+}

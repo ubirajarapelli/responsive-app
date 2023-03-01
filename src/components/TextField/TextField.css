@@ -1,0 +1,49 @@
+.textfield {
+  position: relative;
+  max-width: 325px;
+  border-radius: var(--border-radius-large);
+  background-color: var(--color-neutral-high-pure);
+}
+
+.textfield:focus-within label {
+  font-size: .75em;
+  color: var(--color-brand-primary-pure);
+  transform: translateY(var(--spacing-small));
+}
+
+.textfield label {
+  left: var(--spacing-large);
+  position: absolute;
+  font-family: var(--fbrand-font-family-heading);
+  font-size: var(--font-size-default);
+  transform: translateY(100%);
+  transition: transform .1s ease-out;
+}
+
+.textfield label.has-value {
+  font-size: .75em;
+  transform: translateY(var(--spacing-small));
+}
+
+.textfield input {
+  width: 100%;
+  padding-top: var(--spacing-large);
+  padding-right: var(--spacing-large);
+  padding-bottom: var(--spacing-default);
+  padding-left: var(--spacing-large);
+  border-width: var(--border-size-hairLine);
+  border-style: var(--border-type-solid);
+  border-color: var(--text-color-dark);
+  line-height: var(--line-height-default);
+  font-size: var(--font-size-default);
+  border-radius: var(--border-radius-xsmall);
+  background-color: transparent;
+}
+
+.textfield:focus {
+  border-width: var(--border-size-hairLine);
+  border-style: var(--border-type-solid);
+  border-color: var(--color-brand-primary-pure);
+  color: var(--color-brand-primary-pure);
+  box-shadow: none;
+}
